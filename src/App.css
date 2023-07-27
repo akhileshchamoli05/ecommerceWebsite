@@ -1,33 +1,11 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.container {
-  padding: 20px;
-}
-
-.card {
-  margin-bottom: 20px;
-}
-
-.card-img-top {
-  height: 200px;
   width: 100%;
-  object-fit: cover;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
